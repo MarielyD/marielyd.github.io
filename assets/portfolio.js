@@ -4,7 +4,7 @@ window.onload =function words()
 {
 
 	document.getElementById("adj").innerHTML= adjTab[i];
-	setTimeout ("Recursive()", 1500);
+	setTimeout ("Recursive()", 1400);
 };
 
 function Recursive()
@@ -13,7 +13,7 @@ function Recursive()
 	if( i == 5 )
 		i = 0;
   	document.getElementById("adj").innerHTML= adjTab[i];
-  setTimeout ("Recursive()", 1500);
+  setTimeout ("Recursive()", 1400);
 }
 
 var contactform =  document.getElementById('contactform');
