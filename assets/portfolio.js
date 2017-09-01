@@ -15,6 +15,8 @@ function Recursive()
   	document.getElementById("adj").innerHTML= adjTab[i];
   setTimeout ("Recursive()", 1400);
 }
-
+window.onload =function words()
+{
 var contactform =  document.getElementById('contactform');
     contactform.setAttribute('action', '//formspree.io/' + 'mdlc0502' + '@' + 'gmail' + '.' + 'com');
+}
