@@ -4,7 +4,7 @@ window.onload =function words()
 {
 
 	document.getElementById("adj").innerHTML= adjTab[i];
-	setTimeout ("Recursive()", 1350);
+	setTimeout ("Recursive()", 1400);
 };
 
 function Recursive()
@@ -13,9 +13,9 @@ function Recursive()
 	if( i == 5 )
 		i = 0;
   	document.getElementById("adj").innerHTML= adjTab[i];
-  setTimeout ("Recursive()", 1350);
+  setTimeout ("Recursive()", 1400);
 }
-window.onload =function words()
+window.onload =function form()
 {
 var contactform =  document.getElementById('contactform');
     contactform.setAttribute('action', '//formspree.io/' + 'mdlc0502' + '@' + 'gmail' + '.' + 'com');
