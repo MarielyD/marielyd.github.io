@@ -674,15 +674,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
 }
 
 .innerBorder {
-background:#ccc url(http://aertl.bitweb1.nwtc.edu/php/css/images/matte.png) top left repeat ;
+background:#fff url(http://aertl.bitweb1.nwtc.edu/php/css/images/matte.png) top left repeat ;
 height: 355px;
 left: 16px;
 position: absolute;
 top: 16px;
 width: 245px;
--webkit-box-shadow: inset 5px 5px 12px rgba(50, 50, 50, 0.44);
--moz-box-shadow: inset 5px 5px 12px rgba(50, 50, 50, 0.44);
-box-shadow: inset 5px 5px 12px rgba(50, 50, 50, 0.44);
+-webkit-box-shadow: inset 5px 5px 12px rgba(0, 0, 0, 0);
+-moz-box-shadow: inset 5px 5px 12px rgba(0, 0, 0, 0);
+box-shadow: inset 5px 5px 12px rgba(0, 0, 0, 0);
 overflow: hidden;
 }
 .container .outerBorder {
