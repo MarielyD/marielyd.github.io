@@ -702,6 +702,12 @@ height: 245px;
 }
 
 @media only screen and (max-width: 575px) {
+  .aboutme {
+    font-size: 28px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
   span#adj {
   font-size: 28px;
   padding-top: 2px;
